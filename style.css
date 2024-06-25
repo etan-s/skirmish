@@ -1374,8 +1374,6 @@ object {
 	font-size: 14px;
 	margin: 0 0 30px;
 }
-.widget ul {margin: 8px 0 16px; padding: 0;}
-.widget ul li {list-style-type: none; line-height: 22px;}
 
 .widget .wp-block-search__label,
 .widget .wp-block-heading,
@@ -1411,6 +1409,12 @@ object {
 .widget ul {
 	margin: 0;
 	padding: 0;
+}
+
+.widget ul li {
+	list-style-type: none;
+	margin-bottom: 12px;
+
 }
 
 .widget-area .widget_text {
